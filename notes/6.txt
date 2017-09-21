@@ -1,0 +1,34 @@
+SQL
+    1970
+        Ingres
+        UC Berkly
+            QUEL
+    1980s
+        SystemR, IBM
+        sequel
+
+    1989 V2
+        commonly used by everyone
+    1999? V3
+        used by banks
+
+    DDL/DML
+        DDL: CREATE TABLE
+        DML: SELECT
+
+    Features:
+        1) designed in 1980
+        2) imperfections of early design
+        3) always designed for practical use
+
+NULL and operations like =, <>, <, >, ...
+    can return false
+
+        OR | T | F | U
+        --------------
+        T  | T | T | T
+        F  | T | F | U
+        U  | T | U | U
+    SQL uses 3 valued logic
+        T, F, or U
+        ONLY RETURN T rows

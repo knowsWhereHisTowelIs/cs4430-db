@@ -1,0 +1,21 @@
+Relational Algebra
+
+5 basic operations
+	Sigma (sub theta) R
+			Sigma is logical expression
+			Theta is an operation
+			R is set of tuples
+		Selection
+			EX: Simga (majors='CS') of `Students`
+			EX: Select `major` FROM `Students` WHERE `major` = 'CS'
+			
+	PI (SUB A,B, C=A+B) R
+		Projection
+		Ex: Choose attr A,B and can do maths
+		EX: SELECT `age`, `weight`, MIN(`age`, `weight`) FROM `people`
+		
+	R * S
+		Product
+		Same as set product
+		Students X Enrolled
+		UNION

@@ -1,0 +1,21 @@
+Relational Model
+	Data Collections
+		Set -  no order, and unique aka no duplicates
+			Ex: {1, 3, 2}
+		List - ordered set - can have duplicates
+			Ex: {1,1, 2, 3)
+		Bag - AKA Multiset - unordered but has duplicates
+			Ex: {1,1, 2, 3, 1}
+	Attribute (Column):
+		ATOMIC Value (Unbreakable)
+			Don't care about structure of data cause we get stream of bytes
+			at the higher level
+	Tuple (Rows)
+		a LIST of attribute values
+	Relation (Table):
+		a SET of tuples
+		
+		
+DDL Data Defination Language
+	Create database
+DML Data Management Language????
